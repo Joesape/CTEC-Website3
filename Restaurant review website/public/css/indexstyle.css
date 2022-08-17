@@ -1,0 +1,110 @@
+body {
+	margin: 0;
+    height: 100vh;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+footer {
+    position: fixed;
+    padding: 10px 10px 0px;
+    bottom: 0;
+    width: 100%;
+    height: 40px;
+    background: #aaa;
+    color: white;
+}
+
+.edit {
+    float: right;
+    padding-right: 10px;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+.card-body {
+    color: white;
+}
+
+.bg-alpha {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+
+.Selection_top{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    background-image: url("../images/restauantbgindex.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    justify-content: center;
+    animation: change 10s infinite ease-in-out;
+}
+
+.content{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-transform: uppercase;
+}
+
+.content h1{
+    color: black;
+    font-size: 60px;
+    letter-spacing: 15px;
+    background: yellowgreen;
+    border-radius: 20px;
+}
+
+.content h1 span{
+    color: chocolate;
+}
+
+.content a{
+    background: chartreuse;
+    padding: 10px 24px;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 20px;
+}
+
+.content a:hover{
+    background: #034e88;
+    color: #fff;
+}
+
+@keyframes change{
+    0%
+    {
+        background-image: url("../images/restaurantbgindex5.png");
+    }
+    20%
+    {
+        background-image: url("../images/restaurantbgindex4.jpg");
+    }
+    40%
+    {
+        background-image: url("../images/restaurantbgindex3.jpg");
+    }
+    60%
+    {
+        background-image: url("../images/restaurantbgindex2.jpg");
+    }
+    80%
+    {
+        background-image: url("../images/restauantbgindex.jpg");
+    }
+    100%
+    {
+        background-image: url("../images/allrestaurants.jpg");
+    }
+
+}

@@ -1,0 +1,25 @@
+<!-- this is a structure of Bootstrap Modal -->
+<div class="modal fade " id="messageModal" tabindex="-1" role="dialog">    
+    <div class="modal-dialog modal-sm " role="document">        
+        <div class="modal-content">            
+            <div class="modal-body px-5">                
+                <span id="message">
+                    <br>This is a website for people who wants to decide where to eat and browse through the reviews.</br>
+                    <br>Join us and start browsing where to eat!</br>
+                </span>                
+            <div class="modal-footer">  
+                <button type="button" class="btn btn-secondary bg-dark" data-dismiss="modal" style="float: none; margin: 0 auto;">Close</button>
+
+                <button type="button" style="float: none; margin: 0 auto;" onClick="translateText()">Translate</button>     
+
+                <select id="voice">
+                    <option>Joanna</option>
+                    <option>Matthew</option>
+                </select>
+
+                <button id="play-button" onClick="pollyTextToSpeech()">Play</button>           
+            </div>            
+            </div>        
+        </div>    
+    </div>
+</div>

@@ -1,0 +1,54 @@
+body {
+	margin: 0;
+	background-image: url("../images/allrestaurants.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+	font-family: 'Work Sans', sans-serif;
+	font-weight: 800;
+}
+
+footer {
+    background: #aaa;
+    color: white;
+}
+
+.edit {
+    float: right;
+    padding-right: 10px;
+}
+
+.card {
+    background: transparent;
+    border: none;
+}
+
+.card-body {
+    color: white;
+}
+
+.card-word {
+    color: black;
+}
+
+.card-text {
+    color: black;
+}
+
+.bg-alpha {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.btn {
+    align-items: center;
+    justify-content: center;
+}
+
+.modal-content{
+    width: 500px;
+}
+
+.audio{
+    display: block;
+    margin-top: 20px;
+}
